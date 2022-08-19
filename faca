@@ -1,0 +1,6 @@
+#!/bin/tcsh
+find ./ -name "*$1*" -print > ~/.found
+cat ~/.found
+rm ~/.found
+
+
